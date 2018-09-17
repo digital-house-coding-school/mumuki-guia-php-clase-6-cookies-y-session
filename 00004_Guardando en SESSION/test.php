@@ -2,6 +2,8 @@ public function testSession(): void {
   global $sessionStart;
   global $_SESSION;
   
+  var_dump($sessionStart);exit;
+  
   $this->assertTrue($sessionStart, "¿Llamaste a session_start?");
   
   $this->assertTrue(array_key_exists("usuarioLogueado", $_SESSION), "No existe la posición 'id' en SESSION");
