@@ -7,7 +7,7 @@ function session_start() {
   global $_SESSION;
   global $sessionStart; 
   
-  $sesionStart = true;
+  $sessionStart = true;
   $_SESSION = [];
   
 }
