@@ -1,4 +1,4 @@
-public function testDescriptionExample(): void {
+public function testSession(): void {
   global $sessionStart;
   global $_SESSION;
   
