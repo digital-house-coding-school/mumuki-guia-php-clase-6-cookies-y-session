@@ -2,9 +2,8 @@ public function testSession1(): void {
   global $sessionStart;
   global $_SESSION;
   
-  $_SESSION = [
-    "usuarioLogueado" => "jonsnow"
-  ];
+  $_SESSION = [];
+  $_SESSION["usuarioLogueado"] = "jonsnow";
   
   $resul = leerSession();
   
@@ -19,9 +18,8 @@ public function testSession2(): void {
   global $sessionStart;
   global $_SESSION;
   
-  $_SESSION = [
-    "usuarioLogueado" => "aryastark"
-  ];
+  $_SESSION = [];
+  $_SESSION["usuarioLogueado"] = "aryastark";
   
   $resul = leerSession();
   
