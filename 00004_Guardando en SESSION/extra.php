@@ -9,8 +9,7 @@ function session_start() {
   
   
   $sessionStart = true;
-  
-  var_dump($sessionStart);exit;
+
   $_SESSION = [];
   
 }
