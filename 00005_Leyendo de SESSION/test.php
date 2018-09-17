@@ -11,7 +11,7 @@ public function testSession1(): void {
   
   $this->assertTrue(is_string($resul), "La función debe retornar un string");
   
-  $this->assertTrue($resul === "jonsnow", "La función no retorna lo esperado. Debería retornar 'jonsnow' pero retorna '$resul');
+  $this->assertTrue($resul === "jonsnow", "La función no retorna lo esperado. Debería retornar 'jonsnow' pero retorna '$resul'");
 }
 
 public function testSession2(): void {
@@ -27,5 +27,5 @@ public function testSession2(): void {
   
   $this->assertTrue(is_string($resul), "La función debe retornar un string");
   
-  $this->assertTrue($resul === "aryastark", "La función no retorna lo esperado. Debería retornar 'aryastark' pero retorna '$resul');
+  $this->assertTrue($resul === "aryastark", "La función no retorna lo esperado. Debería retornar 'aryastark' pero retorna '$resul'");
 }
