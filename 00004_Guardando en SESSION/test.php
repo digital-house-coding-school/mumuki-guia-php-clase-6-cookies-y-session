@@ -2,7 +2,7 @@ public function testSession(): void {
   global $sessionStart;
   global $_SESSION;
   
-  var_dump($sessionStart);exit;
+  guardarEnSession();
   
   $this->assertTrue($sessionStart, "¿Llamaste a session_start?");
   
